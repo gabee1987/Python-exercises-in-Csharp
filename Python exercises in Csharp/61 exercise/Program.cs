@@ -20,6 +20,8 @@ namespace _61_exercise
             Console.ReadKey();
 
             string result = SentenceSeparator.SeparateText(originalText);
+            Console.WriteLine( "The cleaned text: " );
+            Console.WriteLine( result );
             Console.ReadKey();
 
         }
